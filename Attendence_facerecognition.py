@@ -41,7 +41,7 @@ while True:
     imgS=cv2.cvtColor(imgS,cv2.COLOR_BGR2RGB)
 
     facesCurFrame=face_recognition.face_locations(imgS)
-    encodesCurFrame=face_recognition.face_encodings((imgS,facesCurFrame)
+    encodesCurFrame=face_recognition.face_encodings(imgS,facesCurFrame)
     for encodeFace,faceLoc in zip(encodesCurFrame,facesCurFrame):
         matches = face_recognition.compare_faces(encodeListKnown,encodeFace)
         faceDis = face_recognition.face_distance(encodeListKnown,encodeFace)
