@@ -1,4 +1,5 @@
 # Face-Recognition-Attendence-system
+
 A face  recognition system is built for matching human faces with a digital image. Computer recognizes is a pixel values ranging from 0-255. In computer vision face recognition has been in since age ans has evolved over the years.  Many researchers have come up with many new techniques to efficiently identify and tell apart faces. There are many use cases such as authentication and verification of users.
 
 #Face Recognition Library
@@ -21,7 +22,8 @@ we are ready to build a realtime face attendance system wherein webcam captured 
 
 #Technology
 
-Computer Vision,Opencv, face recognition, Python
+
+Computer Vision,Opencv, face recognition, Python3
 
 
 
